@@ -12,7 +12,7 @@ void selectionSort(int arr[], int n) {
             }
         }
 
-        // Swap the found minimum element with the first element
+       
         if (minIndex != i) {
             swap(arr[i], arr[minIndex]);
         }
